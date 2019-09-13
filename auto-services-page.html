@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- ==================== -META-TAG-SEO-START- ==================== -->
+    <meta name="copyright" content="Информация о вашей фирме">
+    <meta name="keywords" content="Ваши ключевые слова">
+    <meta name="description" content="Описание Вашей страницы">
+    <!-- ==================== -META-TAG-SEO-END- ==================== -->
+    <title>CarDoc</title>
+    <link rel="icon" href="assets/img/favicon/fav-logo.png">
+    <!-- ==================== -LINKS-PLUGIN-START- ==================== -->
+    <link rel="stylesheet" href="assets/slick/slick.css">
+    <link rel="stylesheet" href="assets/slick/slick-theme.css">
+    <link rel="stylesheet" href="assets/style/jquery.formstyler.css">
+    <link rel="stylesheet" href="assets/style/jquery.formstyler.theme.css">
+    <link rel="stylesheet" href="assets/style/magnific-popup.css">
+    <link rel="stylesheet" href="assets/style/jquery-ui.css">
+    <!-- ===================== -LINKS-PLUGIN-END- ===================== -->
+    <!-- ====================== -LINKS-MY-START- ====================== -->
+    <link rel="stylesheet" href="assets/style/static-root.css">
+    <link rel="stylesheet" href="assets/style/flexbox.css">
+    <link rel="stylesheet" href="assets/style/normalize.css">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet" href="assets/style/media.css">
+    <!-- ======================= -LINKS-MY-END- ======================= -->
+</head>
+<body>
+
+<!-- ===================== -HTML5-HEADER-START- ====================== -->
+<header class="header-min">
+    <div class="container_fluid">
+        <div class="header-home  d_flex j_content_between a_items_center">
+            <div class="header-home__nav">
+                <div class="header-menu">
+                    <div class="open-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="for-mobile-bg"></div>
+                    <div class="menu-cnt">
+                        <div id="mySidenav" class="sidenav ">
+                            <ul class="d_flex a_items_center j_content_between f_wrap">
+                                <li><a href="#">автосервисам</a></li>
+                                <li><a href="#">Помощь</a></li>
+                                <li><a href="#">новости</a></li>
+                            </ul>
+                            <div class="application-steps__about--user__logout d_none">
+                                <a href="#"><img src="assets/img/icons/logout.png" alt="png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-home__logo">
+                <a href="#" class="d_flex j_content_between a_items_start">
+                    <div class="header-home__img__logo">
+                        <img src="assets/img/favicon/vector-smart-2.png" alt="png">
+                    </div>
+                    <div class="header-home__logo__text">
+                        <img src="assets/img/favicon/Vector-logo-2.png" alt="png">
+                    </div>
+                </a>
+            </div>
+            <div class="header-arkhangelsk d_flex j_content_between ">
+                <div class="header-arkhangelsk-min header-ark__info d_flex  a_items_center">
+                    <div class="header-arkhangelsk-cnt">
+                        <a href="#">Архангельск</a>
+                    </div>
+                    <div class="filter-box">
+                        <div class="filter-box__input">
+                            <label>
+                                <div class="filter-box__input_search">
+                                    <img src="assets/img/icons/search.png" alt="png">
+                                </div>
+                                <input id="filterInput" onkeyup="myFunction()" placeholder="Введите название города">
+                            </label>
+                        </div>
+                        <div class="filter-box__list">
+                            <ul id="filterList">
+                                <li><a href="#">Губкин</a></li>
+                                <li><a href="#">Гудермес</a></li>
+                                <li><a href="#"> Гуково</a></li>
+                                <li><a href="#">Гусь-Хрустальный</a></li>
+                                <li><a href="#">Дербент</a></li>
+                                <li><a href="#">Дзержинск</a></li>
+                                <li><a href="#">Димитровград</a></li>
+                                <li><a href="#">Дмитров</a></li>
+                                <li><a href="#">Долгопрудный</a></li>
+                                <li><a href="#">Домодедово</a></li>
+                                <li><a href="#"> Донской</a></li>
+                                <li><a href="#">Дмитров</a></li>
+                                <li><a href="#">Долгопрудный</a></li>
+                                <li><a href="#">Домодедово</a></li>
+                                <li><a href="#"> Донской</a></li>
+                                <li><a href="#">Гусь-Хрустальный</a></li>
+                                <li><a href="#">Дербент</a></li>
+                                <li><a href="#">Дзержинск</a></li>
+                                <li><a href="#">Димитровград</a></li>
+                                <li><a href="#">Дмитров</a></li>
+                                <li><a href="#">Долгопрудный</a></li>
+                                <li><a href="#">Домодедово</a></li>
+                                <li><a href="#"> Донской</a></li>
+                                <li><a href="#">Дмитров</a></li>
+                                <li><a href="#">Долгопрудный</a></li>
+                                <li><a href="#">Домодедово</a></li>
+                                <li><a href="#"> Донской</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="application-steps__about--user  d_flex j_content_between a_items_center">
+                    <div class="header-arkhangelsk-min d_flex j_content_between a_items_center">
+                        <div class="application-steps__about--user__img">
+                            <img src="assets/img/favicon/Layer.png" alt="png">
+                        </div>
+                        <div class="application-steps__about--user__min ">
+                            <div class="application-steps__about--user__name d_flex j_content_between">
+                                <p>Иванов сергей</p>
+                            </div>
+                            <div class="filter-box">
+                                <div class="filter-box__list">
+                                    <ul>
+                                        <li><a href="#">Мои заявки</a></li>
+                                        <li><a href="#">Сообщения</a></li>
+                                        <li><a href="#">Акции и финансы</a></li>
+                                        <li><a href="#">Страница СТО</a></li>
+                                        <li><a href="#">Тарифы</a></li>
+                                        <li><a href="#">Профиль</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="application-steps__about--user__logout">
+                        <a href="#"><img src="assets/img/icons/logout.png" alt="png"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- ====================== -HTML5-HEADER-END- ======================= -->
+
+
+<!-- ================== -HTML5-AUTO-SERVICES-PAGE-START- ============== -->
+<section class="auto-services__page">
+    <div class="container_fluid">
+        <div class="auto-services__block d_flex">
+            <div class="autos-cities">
+                <div class="car-brands checkbox-style">
+                    <h6>Марка автомобиля</h6>
+                    <ul>
+                        <li>
+                            <label class="d_flex a_items_center">
+                                <input type="checkbox" name="checkbox">
+                                <span class="quadrate-checkmark"></span>
+                                <p>Все марки</p>
+                            </label>
+                        </li>
+                    </ul>
+                    <div class="brands-name filter-box__list">
+                        <ul id="filterList checkbox-style">
+                            <li>
+                                <label class="d_flex a_items_center">
+                                    <input type="checkbox" name="checkbox">
+                                    <span class="quadrate-checkmark"></span>
+                                    <div class="brand-img"
+                                         style="background-image: url('assets/img/last_request/brands1.png')"></div>
+                                    <p>Alfa Romeo</p>
+                                </label>
+                            </li>
+                            <li>
+                                <label class="d_flex a_items_center">
+                                    <input type="checkbox" name="checkbox">
+                                    <span class="quadrate-checkmark"></span>
+                                    <div class="brand-img"
+                                         style="background-image: url('assets/img/last_request/brand2.png')"></div>
+                                    <p>Aston Martin</p>
+                                </label>
+                            </li>
+                            <li>
+                                <label class="d_flex a_items_center">
+                                    <input type="checkbox" name="checkbox">
+                                    <span class="quadrate-checkmark"></span>
+                                    <div class="brand-img"
+                                         style="background-image: url('assets/img/last_request/bentley.png')"></div>
+                                    <p>Bentley</p>
+                                </label>
+                            </li>
+                            <li>
+                                <label class="d_flex a_items_center">
+                                    <input type="checkbox" name="checkbox">
+                                    <span class="quadrate-checkmark"></span>
+                                    <div class="brand-img"
+                                         style="background-image: url('assets/img/last_request/audi.png')"></div>
+                                    <p>Audi</p>
+                                </label>
+                            </li>
+                            <li>
+                                <label class="d_flex a_items_center">
+                                    <input type="checkbox" name="checkbox">
+                                    <span class="quadrate-checkmark"></span>
+                                    <div class="brand-img"
+                                         style="background-image: url('assets/img/last_request/bentley.png')"></div>
+                                    <p>Bentley</p>
+                                </label>
+                            </li>
+                            <li>
+                                <label class="d_flex a_items_center">
+                                    <input type="checkbox" name="checkbox">
+                                    <span class="quadrate-checkmark"></span>
+                                    <div class="brand-img"
+                                         style="background-image: url('assets/img/last_request/BMW.png')"></div>
+                                    <p>BMW</p>
+                                </label>
+                            </li>
+                            <li>
+                                <label class="d_flex a_items_center">
+                                    <input type="checkbox" name="checkbox">
+                                    <span class="quadrate-checkmark"></span>
+                                    <div class="brand-img"
+                                         style="background-image: url('assets/img/last_request/bentley.png')"></div>
+                                    <p>Bentley</p>
+                                </label>
+                            </li>
+                            <li>
+                                <label class="d_flex a_items_center">
+                                    <input type="checkbox" name="checkbox">
+                                    <span class="quadrate-checkmark"></span>
+                                    <div class="brand-img"
+                                         style="background-image: url('assets/img/last_request/cadillac.png')"></div>
+                                    <p>Cadilllac</p>
+                                </label>
+                            </li>
+                            <li>
+                                <label class="d_flex a_items_center">
+                                    <input type="checkbox" name="checkbox">
+                                    <span class="quadrate-checkmark"></span>
+                                    <div class="brand-img"
+                                         style="background-image: url('assets/img/last_request/chevrolet.png')"></div>
+                                    <p>Chevrolet</p>
+                                </label>
+                            </li>
+                            <li>
+                                <label class="d_flex a_items_center">
+                                    <input type="checkbox" name="checkbox">
+                                    <span class="quadrate-checkmark"></span>
+                                    <div class="brand-img"
+                                         style="background-image: url('assets/img/last_request/citroen.png')"></div>
+                                    <p>Citroen</p>
+                                </label>
+                            </li>
+                            <li>
+                                <label class="d_flex a_items_center">
+                                    <input type="checkbox" name="checkbox">
+                                    <span class="quadrate-checkmark"></span>
+                                    <div class="brand-img"
+                                         style="background-image: url('assets/img/last_request/daewoo.png')"></div>
+                                    <p>Daewoo</p>
+                                </label>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="cities checkbox-style">
+                    <h6>Город:</h6>
+                    <ul>
+                        <li>
+                            <label class="d_flex a_items_center">
+                                <input type="checkbox" name="checkbox">
+                                <span class="quadrate-checkmark"></span>
+                                <p>Все города</p>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="d_flex a_items_center">
+                                <input type="checkbox" name="checkbox">
+                                <span class="quadrate-checkmark"></span>
+                                <p>Краснодар</p>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="d_flex a_items_center">
+                                <input type="checkbox" name="checkbox">
+                                <span class="quadrate-checkmark"></span>
+                                <p>Сочи</p>
+                            </label>
+                        </li>
+                    </ul>
+
+                </div>
+
+
+            </div>
+            <div class="auto-services__list typical-block__list">
+                <div class="auto-services__list--title typical-list__title">
+                    <h3>Автосервисы в Краснодаре</h3>
+                </div>
+                <div class="submit-application d_flex a_items_center j_content_between">
+                    <p>Оставьте заявку <span>и получите предложения
+по ремонту от автосервисов!</span></p>
+                    <div class="leave-request__block d_flex j_content_between a_items_center">
+                        <form>
+                            <label>
+                                <input type="text" placeholder="Я хочу отремонтировать...">
+                                <div class="leave-request__block__but btn-bg">
+                                    <button>Создать заявку</button>
+                                </div>
+                            </label>
+                        </form>
+                    </div>
+
+                </div>
+                <div class="auto-services__info">
+                    <div class="about-service d_flex a_items_center j_content_between">
+                        <div class="service-description d_flex a_items_center j_content_between">
+                            <div class="service-logo"
+                                 style="background-image:url('assets/img/auto_services_page/avatar.png')"></div>
+                            <div class="service-name__address">
+                                <a  href="#">СТО «Pitstop Moscow»</a>
+                                <p>Краснодарский край, г. Краснодар, ул. Гагарина, 54</p>
+                                <div class="rating d_flex a_items_center j_content_between">
+                                    <div class="stars-img"
+                                         style="background-image: url('assets/img/auto_services_page/stars.png')"></div>
+                                    <p>Рейтинг: <i>4,98</i></p>
+                                    <span></span>
+                                    <p>Отзывов: <span>234</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service-photos d_flex j_content_between a_items_center">
+                            <a href="assets/img/auto_services_page/img1.png" class="license-popup">
+
+                            <div class="service-img img-static"
+                                 style="background-image: url('assets/img/auto_services_page/img1.png')">
+                            </div>
+                            </a>
+
+                            <a href="assets/img/auto_services_page/img2.png" class="license-popup">
+
+                                <div class="service-img img-static"
+                                     style="background-image: url('assets/img/auto_services_page/img2.png')">
+                                </div>
+                            </a>
+                            <a href="assets/img/auto_services_page/img3.png" class="license-popup">
+
+                                <div class="service-img img-static"
+                                     style="background-image: url('assets/img/auto_services_page/img3.png')">
+                                </div>
+                            </a>
+                            <a href="assets/img/auto_services_page/img4.png" class="license-popup">
+
+                                <div class="service-img img-static"
+                                     style="background-image: url('assets/img/auto_services_page/img4.png')">
+                                </div>
+                            </a>
+                            <a href="assets/img/auto_services_page/img5.png" class="license-popup">
+
+                                <div class="service-img img-static"
+                                     style="background-image: url('assets/img/auto_services_page/img5.png')">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <p>Полный спектр малярно-кузовного ремонта. Покраска авто, как полностью так и локально. Сварочные
+                        работы. Восстановление геометрии. Ремонт бамперов. Полировка фар. Предпродажная подготовка авто.
+                        Качественно и в срок! Мы в сетях: https://vk.com/lineservice График работы: ПН-СБ с 10:00-20:00
+                        Выходной: воскресенье</p>
+                    <h6>Специализация автосервиса:</h6>
+                    <div class="service-description__brands d_flex a_items_center j_content_between">
+                        <div class="service-description__brand--name d_flex a_items_center">
+                            <div class="service-brand__name"
+                                 style="background-image: url('assets/img/auto_services_page/brand2.png')"></div>
+                            <p>Aston Martin</p>
+                        </div>
+                        <div class="service-description__brand--name d_flex a_items_center">
+                            <div class="service-brand__name"
+                                 style="background-image: url('assets/img/auto_services_page/audi.png')"></div>
+                            <p>Audo</p>
+                        </div>
+                        <div class="service-description__brand--name d_flex a_items_center">
+                            <div class="service-brand__name"
+                                 style="background-image: url('assets/img/auto_services_page/bentley.png')"></div>
+                            <p>Bentley</p>
+                        </div>
+                        <div class="service-description__brand--name d_flex a_items_center">
+                            <div class="service-brand__name"
+                                 style="background-image: url('assets/img/auto_services_page/BMW.png')"></div>
+                            <p>BMW</p>
+                        </div>
+                    </div>
+                    <div class="btn-bg service-description__btn">
+                        <button>оставить заявку</button>
+                    </div>
+
+                </div>
+                <div class="auto-services__info">
+                    <div class="about-service d_flex a_items_center j_content_between">
+                        <div class="service-description d_flex a_items_center j_content_between">
+                            <div class="service-logo"
+                                 style="background-image:url('assets/img/auto_services_page/avatar.png')"></div>
+                            <div class="service-name__address">
+                                <a  href="#">СТО «Pitstop Moscow»</a>
+                                <p>Краснодарский край, г. Краснодар, ул. Гагарина, 54</p>
+                                <div class="rating d_flex a_items_center j_content_between">
+                                    <div class="stars-img"
+                                         style="background-image: url('assets/img/auto_services_page/stars.png')"></div>
+                                    <p>Рейтинг: <i>4,98</i></p>
+                                    <span></span>
+                                    <p>Отзывов: <span>234</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service-photos d_flex j_content_between a_items_center">
+                            <a href="assets/img/auto_services_page/img1.png" class="license-popup">
+
+                                <div class="service-img img-static"
+                                     style="background-image: url('assets/img/auto_services_page/img1.png')">
+                                </div>
+                            </a>
+
+                            <a href="assets/img/auto_services_page/img2.png" class="license-popup">
+
+                                <div class="service-img img-static"
+                                     style="background-image: url('assets/img/auto_services_page/img2.png')">
+                                </div>
+                            </a>
+                            <a href="assets/img/auto_services_page/img3.png" class="license-popup">
+
+                                <div class="service-img img-static"
+                                     style="background-image: url('assets/img/auto_services_page/img3.png')">
+                                </div>
+                            </a>
+                            <a href="assets/img/auto_services_page/img4.png" class="license-popup">
+
+                                <div class="service-img img-static"
+                                     style="background-image: url('assets/img/auto_services_page/img4.png')">
+                                </div>
+                            </a>
+                            <a href="assets/img/auto_services_page/img5.png" class="license-popup">
+
+                                <div class="service-img img-static"
+                                     style="background-image: url('assets/img/auto_services_page/img5.png')">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <p>Полный спектр малярно-кузовного ремонта. Покраска авто, как полностью так и локально. Сварочные
+                        работы. Восстановление геометрии. Ремонт бамперов. Полировка фар. Предпродажная подготовка авто.
+                        Качественно и в срок! Мы в сетях: https://vk.com/lineservice График работы: ПН-СБ с 10:00-20:00
+                        Выходной: воскресенье</p>
+                    <h6>Специализация автосервиса:</h6>
+                    <div class="service-description__brands d_flex a_items_center j_content_between">
+                        <div class="service-description__brand--name d_flex a_items_center">
+                            <div class="service-brand__name"
+                                 style="background-image: url('assets/img/auto_services_page/brand2.png')"></div>
+                            <p>Aston Martin</p>
+                        </div>
+                        <div class="service-description__brand--name d_flex a_items_center">
+                            <div class="service-brand__name"
+                                 style="background-image: url('assets/img/auto_services_page/audi.png')"></div>
+                            <p>Audo</p>
+                        </div>
+                        <div class="service-description__brand--name d_flex a_items_center">
+                            <div class="service-brand__name"
+                                 style="background-image: url('assets/img/auto_services_page/bentley.png')"></div>
+                            <p>Bentley</p>
+                        </div>
+                        <div class="service-description__brand--name d_flex a_items_center">
+                            <div class="service-brand__name"
+                                 style="background-image: url('assets/img/auto_services_page/BMW.png')"></div>
+                            <p>BMW</p>
+                        </div>
+                    </div>
+                    <div class="btn-bg service-description__btn">
+                        <button>оставить заявку</button>
+                    </div>
+
+                </div>
+                <div class="auto-services__info">
+                    <div class="about-service d_flex a_items_center j_content_between">
+                        <div class="service-description d_flex a_items_center j_content_between">
+                            <div class="service-logo"
+                                 style="background-image:url('assets/img/auto_services_page/avatar.png')"></div>
+                            <div class="service-name__address">
+                                <a  href="#">СТО «Pitstop Moscow»</a>
+                                <p>Краснодарский край, г. Краснодар, ул. Гагарина, 54</p>
+                                <div class="rating d_flex a_items_center j_content_between">
+                                    <div class="stars-img"
+                                         style="background-image: url('assets/img/auto_services_page/stars.png')"></div>
+                                    <p>Рейтинг: <i>4,98</i></p>
+                                    <span></span>
+                                    <p>Отзывов: <span>234</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service-photos d_flex j_content_between a_items_center">
+                            <a href="assets/img/auto_services_page/img1.png" class="license-popup">
+
+                                <div class="service-img img-static"
+                                     style="background-image: url('assets/img/auto_services_page/img1.png')">
+                                </div>
+                            </a>
+
+                            <a href="assets/img/auto_services_page/img2.png" class="license-popup">
+
+                                <div class="service-img img-static"
+                                     style="background-image: url('assets/img/auto_services_page/img2.png')">
+                                </div>
+                            </a>
+                            <a href="assets/img/auto_services_page/img3.png" class="license-popup">
+
+                                <div class="service-img img-static"
+                                     style="background-image: url('assets/img/auto_services_page/img3.png')">
+                                </div>
+                            </a>
+                            <a href="assets/img/auto_services_page/img4.png" class="license-popup">
+
+                                <div class="service-img img-static"
+                                     style="background-image: url('assets/img/auto_services_page/img4.png')">
+                                </div>
+                            </a>
+                            <a href="assets/img/auto_services_page/img5.png" class="license-popup">
+
+                                <div class="service-img img-static"
+                                     style="background-image: url('assets/img/auto_services_page/img5.png')">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <p>Полный спектр малярно-кузовного ремонта. Покраска авто, как полностью так и локально. Сварочные
+                        работы. Восстановление геометрии. Ремонт бамперов. Полировка фар. Предпродажная подготовка авто.
+                        Качественно и в срок! Мы в сетях: https://vk.com/lineservice График работы: ПН-СБ с 10:00-20:00
+                        Выходной: воскресенье</p>
+                    <h6>Специализация автосервиса:</h6>
+                    <div class="service-description__brands d_flex a_items_center j_content_between">
+                        <div class="service-description__brand--name d_flex a_items_center">
+                            <div class="service-brand__name"
+                                 style="background-image: url('assets/img/auto_services_page/brand2.png')"></div>
+                            <p>Aston Martin</p>
+                        </div>
+                        <div class="service-description__brand--name d_flex a_items_center">
+                            <div class="service-brand__name"
+                                 style="background-image: url('assets/img/auto_services_page/audi.png')"></div>
+                            <p>Audo</p>
+                        </div>
+                        <div class="service-description__brand--name d_flex a_items_center">
+                            <div class="service-brand__name"
+                                 style="background-image: url('assets/img/auto_services_page/bentley.png')"></div>
+                            <p>Bentley</p>
+                        </div>
+                        <div class="service-description__brand--name d_flex a_items_center">
+                            <div class="service-brand__name"
+                                 style="background-image: url('assets/img/auto_services_page/BMW.png')"></div>
+                            <p>BMW</p>
+                        </div>
+                    </div>
+                    <div class="btn-bg service-description__btn">
+                        <button>оставить заявку</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =================== -HTML5-AUTO-SERVICES-PAGE-END- =============== -->
+
+
+
+
+<!-- ====================== -HTML5-FOOTER-START- ======================= -->
+<footer>
+    <div class="container">
+        <div class="footer-min d_flex j_content_between a_items_start">
+            <div class="footer-min__menu">
+                <ul class="d_flex j_content_between f_wrap">
+                    <li><span>Навигация:</span></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Оферта</a></li>
+                    <li><a href="#">Отзывы о автосервисах</a></li>
+                    <li><a href="#">Автосервисам</a></li>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Акции автосервисов</a></li>
+                </ul>
+            </div>
+            <div class="footer-min__menu">
+                <ul>
+                    <li><span>Пользователям:</span></li>
+                    <li><a href="#">Политика конфиденциальности</a></li>
+                    <li><a href="#">Пользовательское соглашение</a></li>
+                    <li><a href="#">Оферта</a></li>
+                </ul>
+            </div>
+            <div class="footer-block">
+                <p>наши контакты:</p>
+                <div class="footer-block__href">
+                    <a href="tel: +7 948 455 74 59;">+7 948 455 74 59</a>
+                    <a href="mailto: support@cardoc.ru;">support@cardoc.ru</a>
+                </div>
+                <div class="footer-block__href--icon d_flex">
+                    <a href="https://play.google.com"><img src="assets/img/icons/Google_Play.png" alt="png"></a>
+                    <a href="https://www.apple.com"><img src="assets/img/icons/box.png" alt="png"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="all-rights__reserved">
+        <div class="container">
+            <div class="all-rights__reserved--min d_flex j_content_between a_items_center">
+                <div class="all-rights__reserved--text">
+                    <p>2019 © CarDoc. Все права защищены.</p>
+                </div>
+                <div class="all-rights__reserved--icon">
+                        <ul class="d_flex j_content_between">
+
+                            <li><a href="https://www.instagram.com">
+                                    <svg>
+                                        <use xlink:href="assets/img/svg/icons.svg#instagram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li><a href="https://vk.com">
+                                    <svg>
+                                        <use xlink:href="assets/img/svg/icons.svg#vk"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li><a href="https://www.facebook.com">
+                                    <svg>
+                                        <use xlink:href="assets/img/svg/icons.svg#faceboock"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li><a href="https://www.youtube.com">
+                                    <svg>
+                                        <use xlink:href="assets/img/svg/icons.svg#youtube"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                <div class="made-in d_flex j_content_between a_items_center">
+                    <p>Сделано в</p>
+                    <div class="made-in__logo">
+                        <img src="assets/img/icons/vector-smart.png" alt="png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- ====================== -HTML5-FOOTER-END- ======================= -->
+
+<!-- ===================== -SCRIPT-PLUGIN-START- ===================== -->
+<script src="assets/js/jquery-3.2.1.min.js"></script>
+<script src="assets/slick/slick.min.js"></script>
+<script src="assets/js/jquery.mask.min.js"></script>
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<!-- ====================== -SCRIPT-PLUGIN-END- ====================== -->
+<!-- ======================= -SCRIPT-MY-START- ======================= -->
+<script src="assets/js/script.js"></script>
+<!-- ======================== -SCRIPT-MY-END- ======================== -->
+</body>
+
+</html>

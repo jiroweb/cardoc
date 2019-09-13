@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- ==================== -META-TAG-SEO-START- ==================== -->
+    <meta name="copyright" content="Информация о вашей фирме">
+    <meta name="keywords" content="Ваши ключевые слова">
+    <meta name="description" content="Описание Вашей страницы">
+    <!-- ==================== -META-TAG-SEO-END- ==================== -->
+    <title>CarDoc</title>
+    <link rel="icon" href="../assets/img/favicon/fav-logo.png">
+    <!-- ==================== -LINKS-PLUGIN-START- ==================== -->
+    <link rel="stylesheet" href="../assets/slick/slick.css">
+    <link rel="stylesheet" href="../assets/slick/slick-theme.css">
+    <link rel="stylesheet" href="../assets/style/jquery.formstyler.css">
+    <link rel="stylesheet" href="../assets/style/jquery.formstyler.theme.css">
+    <link rel="stylesheet" href="../assets/style/magnific-popup.css">
+    <!-- ===================== -LINKS-PLUGIN-END- ===================== -->
+    <!-- ====================== -LINKS-MY-START- ====================== -->
+    <link rel="stylesheet" href="../assets/style/static-root.css">
+    <link rel="stylesheet" href="../assets/style/flexbox.css">
+    <link rel="stylesheet" href="../assets/style/normalize.css">
+    <link rel="stylesheet" href="../assets/style/style.css">
+    <link rel="stylesheet" href="../assets/style/media.css">
+    <!-- ======================= -LINKS-MY-END- ======================= -->
+</head>
+
+<body>
+    <!-- ===================== -HTML5-HEADER-START- ====================== -->
+    <header class="header-min">
+        <div class="container_fluid">
+            <div class="header-home  d_flex j_content_between a_items_center">
+                <div class="header-home__nav">
+                    <div class="header-menu">
+                        <div class="open-menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="for-mobile-bg"></div>
+                        <div class="menu-cnt">
+                            <div id="mySidenav" class="sidenav ">
+                                <ul class="d_flex a_items_center j_content_between f_wrap">
+                                    <li><a href="#">автосервисам</a></li>
+                                    <li><a href="#">Помощь</a></li>
+                                    <li><a href="#">новости</a></li>
+                                </ul>
+                                <div class="application-steps__about--user__logout d_none">
+                                    <a href="#"><img src="../assets/img/icons/logout.png" alt="png"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-home__logo">
+                    <a href="#" class="d_flex j_content_between a_items_start">
+                        <div class="header-home__img__logo">
+                            <img src="../assets/img/favicon/vector-smart-2.png" alt="png">
+                        </div>
+                        <div class="header-home__logo__text">
+                            <img src="../assets/img/favicon/Vector-logo-2.png" alt="png">
+                        </div>
+                    </a>
+                </div>
+                <div class="header-arkhangelsk d_flex j_content_between ">
+                    <div class="header-arkhangelsk-min header-ark__info d_flex  a_items_center">
+                        <div class="header-arkhangelsk-cnt">
+                            <a href="#">Архангельск</a>
+                        </div>
+                        <div class="filter-box">
+                            <div class="filter-box__input">
+                                <label>
+                                    <div class="filter-box__input_search">
+                                        <img src="../assets/img/icons/search.png" alt="png">
+                                    </div>
+                                    <input id="filterInput" onkeyup="myFunction()"
+                                        placeholder="Введите название города">
+                                </label>
+                            </div>
+                            <div class="filter-box__list">
+                                <ul id="filterList">
+                                    <li><a href="#">Губкин</a></li>
+                                    <li><a href="#">Гудермес</a></li>
+                                    <li><a href="#"> Гуково</a></li>
+                                    <li><a href="#">Гусь-Хрустальный</a></li>
+                                    <li><a href="#">Дербент</a></li>
+                                    <li><a href="#">Дзержинск</a></li>
+                                    <li><a href="#">Димитровград</a></li>
+                                    <li><a href="#">Дмитров</a></li>
+                                    <li><a href="#">Долгопрудный</a></li>
+                                    <li><a href="#">Домодедово</a></li>
+                                    <li><a href="#"> Донской</a></li>
+                                    <li><a href="#">Дмитров</a></li>
+                                    <li><a href="#">Долгопрудный</a></li>
+                                    <li><a href="#">Домодедово</a></li>
+                                    <li><a href="#"> Донской</a></li>
+                                    <li><a href="#">Гусь-Хрустальный</a></li>
+                                    <li><a href="#">Дербент</a></li>
+                                    <li><a href="#">Дзержинск</a></li>
+                                    <li><a href="#">Димитровград</a></li>
+                                    <li><a href="#">Дмитров</a></li>
+                                    <li><a href="#">Долгопрудный</a></li>
+                                    <li><a href="#">Домодедово</a></li>
+                                    <li><a href="#"> Донской</a></li>
+                                    <li><a href="#">Дмитров</a></li>
+                                    <li><a href="#">Долгопрудный</a></li>
+                                    <li><a href="#">Домодедово</a></li>
+                                    <li><a href="#"> Донской</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="application-steps__about--user  d_flex j_content_between a_items_center">
+                        <div class="header-arkhangelsk-min d_flex j_content_between a_items_center">
+                            <div class="application-steps__about--user__img">
+                                <img src="../assets/img/favicon/Layer.png" alt="png">
+                            </div>
+                            <div class="application-steps__about--user__min ">
+                                <div class="application-steps__about--user__name d_flex j_content_between">
+                                    <p>Иванов сергей</p>
+                                </div>
+                                <div class="filter-box">
+                                    <div class="filter-box__list">
+                                        <ul>
+                                            <li><a href="#">Мои заявки</a></li>
+                                            <li><a href="#">Сообщения</a></li>
+                                            <li><a href="#">Акции и финансы</a></li>
+                                            <li><a href="#">Страница СТО</a></li>
+                                            <li><a href="#">Тарифы</a></li>
+                                            <li><a href="#">Профиль</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="application-steps__about--user__logout">
+                            <a href="#"><img src="../assets/img/icons/logout.png" alt="png"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ====================== -HTML5-HEADER-END- ======================= -->
+
+    <!-- ====================== -HTML5-PROFILE-STATISTICS-START- ======================= -->
+    <section class="application-steps__bg">
+        <div class="container_fluid">
+            <div class="application-steps__min d_flex j_content_between">
+                <div class="application-steps__left">
+                    <div class="about-application-steps">
+                        <div class="application-steps__left--box d_flex f_direction_column a_items_center">
+                            <div class="application-steps__left--box__img">
+                                <img src="../assets/img/application-steps/Layer.png" alt="png">
+                            </div>
+                            <a href="#">СТО «PITSTOP moscow»</a>
+                            <div class="user-statistics">
+                                <div class="user-statistics__star">
+                                    <div class="stars_block d-flex">
+                                        <ul data-true="false">
+                                            <li data-value="1" class="">
+                                                <svg>
+                                                    <use xlink:href="../assets/img/svg/icons.svg#star"></use>
+                                                </svg>
+                                            </li>
+                                            <li data-value="2" class="">
+                                                <svg>
+                                                    <use xlink:href="../assets/img/svg/icons.svg#star"></use>
+                                                </svg>
+                                            </li>
+                                            <li data-value="3" class="">
+                                                <svg>
+                                                    <use xlink:href="../assets/img/svg/icons.svg#star"></use>
+                                                </svg>
+                                            </li>
+                                            <li data-value="4" class="">
+                                                <svg>
+                                                    <use xlink:href="../assets/img/svg/icons.svg#star"></use>
+                                                </svg>
+                                            </li>
+                                            <li data-value="5" class="">
+                                                <svg>
+                                                    <use xlink:href="../assets/img/svg/icons.svg#star"></use>
+                                                </svg>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="user-statistics__count d_flex j_content_between a_items_center">
+                                    <div class="user-statistics__count--rating">
+                                        <p>Рейтинг: <span>4,98</span></p>
+                                    </div>         
+                                    <div class="user-statistics__count--comment">
+                                        <p>Отзывов: <span>234</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about-my__car">
+                            <ul>
+                                <li class="about-my__car--active"><a href="#">Заявки <span>73</span></a></li>
+                                <li><a href="#">Сообщения <span>23</span></a></li>
+                                <li><a href="#">Отзывы <span>5</span></a></li>
+                                <li><a href="#">Акции</a></li>
+                                <li><a href="#">Финансы</a></li>
+                                <li><a href="#">Профил</a></li>
+                                <li><a href="#">Статистика</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="application-steps__right">
+                    <div class="personal-area-messenger-block profile-messenger__block">
+                        <div class="persomal-area-messenger d_flex">
+                            <div class="personal-area-user-mesengers">
+                                <div class="personal-area-messenger-search">
+                                    <div class="serach-messenger-input">
+                                        <label>
+                                            <input type="text" placeholder="Поиск по сообщениям">
+                                        </label>
+                                    </div>
+
+                                </div>
+                                <div class="prs-area-firends-list-block">
+                                    <div class="prs-area-firend-list">
+                                        <div class="prs-area-firend-box d_flex a_items_center">
+                                            <div class="prs-area-user-img"
+                                                style="background-image: url('../assets/img/personal-area/user-male.png')">
+                                            </div>
+                                            <div class="prs-area-user-info">
+                                                <div class="prs-area-name d_flex a_items_center j_content_between">
+                                                    <h3>Евгений </h3>
+                                                    <div class="prs-area-time-mess">
+                                                        <span>22.05.19 </span>
+                                                        <span> 23:05</span>
+                                                    </div>
+                                                </div>
+                                                <div class="prs-area-user-message">
+                                                    <p>Необходио заменить подшипник в сту...</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="prs-area-firend-box d_flex a_items_center">
+                                            <div class="prs-area-user-img"
+                                                style="background-image: url('../assets/img/personal-area/user-male.png')">
+                                            </div>
+                                            <div class="prs-area-user-info">
+                                                <div class="prs-area-name d_flex a_items_center j_content_between">
+                                                    <h3>Андрей</h3>
+                                                    <div class="prs-area-time-mess">
+                                                        <span>22.05.19 </span>
+                                                        <span> 23:05</span>
+                                                    </div>
+                                                </div>
+                                                <div class="prs-area-user-message">
+                                                    <p>Необходио заменить подшипник в сту...</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="prs-area-firend-box prs-area-firend-box__active firend-box__active--write  d_flex a_items_center">
+                                            <div class="prs-area-user-img"
+                                                style="background-image: url('../assets/img/personal-area/user-male.png')">
+                                            </div>
+                                            <div class="prs-area-user-info">
+                                                <div class="prs-area-name d_flex a_items_center j_content_between">
+                                                    <h3>Руслан</h3>
+                                                    <div class="prs-area-time-mess">
+                                                        <span>22.05.19 </span>
+                                                        <span> 23:05</span>
+                                                    </div>
+                                                </div>
+                                                <div class="prs-area-user-message">
+                                                    <p>Необходио заменить подшипник в сту...</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="prs-area-firend-box prs-area-firend-box__active d_flex a_items_center">
+                                            <div class="prs-area-user-img"
+                                                style="background-image: url('../assets/img/personal-area/user-male.png')">
+                                            </div>
+                                            <div class="prs-area-user-info">
+                                                <div class="prs-area-name d_flex a_items_center j_content_between">
+                                                    <h3>Пользователь </h3>
+                                                    <div class="prs-area-time-mess">
+                                                        <span>22.05.19 </span>
+                                                        <span> 23:05</span>
+                                                    </div>
+                                                </div>
+                                                <div class="prs-area-user-message">
+                                                    <p>Необходио заменить подшипник в сту...</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="prs-area-firend-box prs-area-firend-box__active d_flex a_items_center">
+                                            <div class="prs-area-user-img"
+                                                style="background-image: url('../assets/img/personal-area/user-male.png')">
+                                            </div>
+                                            <div class="prs-area-user-info">
+                                                <div class="prs-area-name d_flex a_items_center j_content_between">
+                                                    <h3>Евгений</h3>
+                                                    <div class="prs-area-time-mess">
+                                                        <span>22.05.19 </span>
+                                                        <span> 23:05</span>
+                                                    </div>
+                                                </div>
+                                                <div class="prs-area-user-message">
+                                                    <p>Необходио заменить подшипник в сту...</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="prs-area-firend-box prs-area-firend-box__active d_flex a_items_center">
+                                            <div class="prs-area-user-img"
+                                                style="background-image: url('../assets/img/personal-area/user-male.png')">
+                                            </div>
+                                            <div class="prs-area-user-info">
+                                                <div class="prs-area-name d_flex a_items_center j_content_between">
+                                                    <h3>Андрей</h3>
+                                                    <div class="prs-area-time-mess">
+                                                        <span>22.05.19 </span>
+                                                        <span> 23:05</span>
+                                                    </div>
+                                                </div>
+                                                <div class="prs-area-user-message">
+                                                    <p>Необходио заменить подшипник в сту...</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="prs-area-firend-box prs-area-firend-box__active d_flex a_items_center">
+                                            <div class="prs-area-user-img"
+                                                style="background-image: url('../assets/img/personal-area/user-male.png')">
+                                            </div>
+                                            <div class="prs-area-user-info">
+                                                <div class="prs-area-name d_flex a_items_center j_content_between">
+                                                    <h3>Андрей </h3>
+                                                    <div class="prs-area-time-mess">
+                                                        <span>22.05.19 </span>
+                                                        <span> 23:05</span>
+                                                    </div>
+                                                </div>
+                                                <div class="prs-area-user-message">
+                                                    <p>Необходио заменить подшипник в сту...</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="prs-area-firend-box prs-area-firend-box__active d_flex a_items_center">
+                                            <div class="prs-area-user-img"
+                                                style="background-image: url('../assets/img/personal-area/user-male.png')">
+                                            </div>
+                                            <div class="prs-area-user-info">
+                                                <div class="prs-area-name d_flex a_items_center j_content_between">
+                                                    <h3>Евгений</h3>
+                                                    <div class="prs-area-time-mess">
+                                                        <span>22.05.19 </span>
+                                                        <span> 23:05</span>
+                                                    </div>
+                                                </div>
+                                                <div class="prs-area-user-message">
+                                                    <p>Необходио заменить подшипник в сту...</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="prs-area-firend-box prs-area-firend-box__active d_flex a_items_center">
+                                            <div class="prs-area-user-img"
+                                                style="background-image: url('../assets/img/personal-area/user-male.png')">
+                                            </div>
+                                            <div class="prs-area-user-info">
+                                                <div class="prs-area-name d_flex a_items_center j_content_between">
+                                                    <h3>Руслан</h3>
+                                                    <div class="prs-area-time-mess">
+                                                        <span>22.05.19 </span>
+                                                        <span> 23:05</span>
+                                                    </div>
+                                                </div>
+                                                <div class="prs-area-user-message">
+                                                    <p>Необходио заменить подшипник в сту...</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="prs-area-firend-box prs-area-firend-box__active d_flex a_items_center">
+                                            <div class="prs-area-user-img"
+                                                style="background-image: url('../assets/img/personal-area/user-male.png')">
+                                            </div>
+                                            <div class="prs-area-user-info">
+                                                <div class="prs-area-name d_flex a_items_center j_content_between">
+                                                    <h3>Руслан</h3>
+                                                    <div class="prs-area-time-mess">
+                                                        <span>22.05.19 </span>
+                                                        <span> 23:05</span>
+                                                    </div>
+                                                </div>
+                                                <div class="prs-area-user-message">
+                                                    <p>Необходио заменить подшипник в сту...</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="prs-area-firend-box prs-area-firend-box__active d_flex a_items_center">
+                                            <div class="prs-area-user-img"
+                                                style="background-image: url('../assets/img/personal-area/user-male.png')">
+                                            </div>
+                                            <div class="prs-area-user-info">
+                                                <div class="prs-area-name d_flex a_items_center j_content_between">
+                                                    <h3>Пользователь </h3>
+                                                    <div class="prs-area-time-mess">
+                                                        <span>22.05.19 </span>
+                                                        <span> 23:05</span>
+                                                    </div>
+                                                </div>
+                                                <div class="prs-area-user-message">
+                                                    <p>Необходио заменить подшипник в сту...</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="prs-area-firend-box prs-area-firend-box__active d_flex a_items_center">
+                                            <div class="prs-area-user-img"
+                                                style="background-image: url('../assets/img/personal-area/user-male.png')">
+                                            </div>
+                                            <div class="prs-area-user-info">
+                                                <div class="prs-area-name d_flex a_items_center j_content_between">
+                                                    <h3>Евгений</h3>
+                                                    <div class="prs-area-time-mess">
+                                                        <span>22.05.19 </span>
+                                                        <span> 23:05</span>
+                                                    </div>
+                                                </div>
+                                                <div class="prs-area-user-message">
+                                                    <p>Необходио заменить подшипник в сту...</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="prs-area-firend-box prs-area-firend-box__active d_flex a_items_center">
+                                            <div class="prs-area-user-img"
+                                                style="background-image: url('../assets/img/personal-area/user-male.png')">
+                                            </div>
+                                            <div class="prs-area-user-info">
+                                                <div class="prs-area-name d_flex a_items_center j_content_between">
+                                                    <h3>Андрей</h3>
+                                                    <div class="prs-area-time-mess">
+                                                        <span>22.05.19 </span>
+                                                        <span> 23:05</span>
+                                                    </div>
+                                                </div>
+                                                <div class="prs-area-user-message">
+                                                    <p>Необходио заменить подшипник в сту...</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="prs-area-firend-box prs-area-firend-box__active d_flex a_items_center">
+                                            <div class="prs-area-user-img"
+                                                style="background-image: url('../assets/img/personal-area/user-male.png')">
+                                            </div>
+                                            <div class="prs-area-user-info">
+                                                <div class="prs-area-name d_flex a_items_center j_content_between">
+                                                    <h3>Андрей </h3>
+                                                    <div class="prs-area-time-mess">
+                                                        <span>22.05.19 </span>
+                                                        <span> 23:05</span>
+                                                    </div>
+                                                </div>
+                                                <div class="prs-area-user-message">
+                                                    <p>Необходио заменить подшипник в сту...</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="prs-area-firend-box prs-area-firend-box__active d_flex a_items_center">
+                                            <div class="prs-area-user-img"
+                                                style="background-image: url('../assets/img/personal-area/user-male.png')">
+                                            </div>
+                                            <div class="prs-area-user-info">
+                                                <div class="prs-area-name d_flex a_items_center j_content_between">
+                                                    <h3>Евгений</h3>
+                                                    <div class="prs-area-time-mess">
+                                                        <span>22.05.19 </span>
+                                                        <span> 23:05</span>
+                                                    </div>
+                                                </div>
+                                                <div class="prs-area-user-message">
+                                                    <p>Необходио заменить подшипник в сту...</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="prs-area-firend-box prs-area-firend-box__active d_flex a_items_center">
+                                            <div class="prs-area-user-img"
+                                                style="background-image: url('../assets/img/personal-area/user-male.png')">
+                                            </div>
+                                            <div class="prs-area-user-info">
+                                                <div class="prs-area-name d_flex a_items_center j_content_between">
+                                                    <h3>Руслан</h3>
+                                                    <div class="prs-area-time-mess">
+                                                        <span>22.05.19 </span>
+                                                        <span> 23:05</span>
+                                                    </div>
+                                                </div>
+                                                <div class="prs-area-user-message">
+                                                    <p>Необходио заменить подшипник в сту...</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="personal-area-messenger-text-block">
+                                <div class="persola-area-mess-title d_flex a_items_center j_content_between">
+                                    <div class="service-description d_flex a_items_center j_content_between">
+                                        <div class="service-name__address ">
+                                            <p><span>Перейти к заявке</span> #4567674</p>
+                                        </div>
+                                    </div>
+                                    <div class="service-name__address ">
+                                        <p>Пользователь был в сети в 15:04</p>
+                                    </div>
+                                </div>
+                                <div class="personal-messenger-text-block">
+                                    <div class="personal-area-messenger-text-box">
+                                        <div class="personal-area-meesenger-over">
+                                            <div class="personal-user-message">
+                                                <div class="personal-user-mss-title d_flex a_items_center j_content_between">
+                                                    <h3>Вы написали:</h3>
+                                                    <span>12:32</span>
+                                                </div>
+                                                <p>При создании генератора мы использовали небезизвестный универса</p>
+                                            </div>
+                                            <div class="personal-friend-meessage d_flex a_items_start">
+                                                <div class="prs-area-user-img"
+                                                    style="background-image: url('../assets/img/personal-area/user-male.png')">
+                                                </div>
+                                                <div class="personal-frienf-mss-info">
+                                                    <div class="personal-user-mss-title d_flex a_items_center j_content_between">
+                                                        <h3>Руслан</h3>
+                                                        <span>12:32</span>
+                                                    </div>
+                                                    <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык </p>
+                                                </div>
+                                            </div>
+                                            <div class="personal-user-message">
+                                                <div
+                                                    class="personal-user-mss-title d_flex a_items_center j_content_between">
+                                                    <h3>Вы написали:</h3>
+                                                    <span>12:32</span>
+                                                </div>
+                                                <p>При создании генератора мы использовали небезизвестный универса</p>
+                                                <div class="user-message__img d_flex a_items_center j_content_start f_wrap">
+                                                    <div class="user-message__img--box" style="background-image: url(../assets/img/profile/profile-messenger/Layer-1.jpg);"></div>
+                                                    <div class="user-message__img--box" style="background-image: url(../assets/img/profile/profile-messenger/Layer-2.jpg);"></div>
+                                                    <div class="user-message__img--box" style="background-image: url(../assets/img/profile/profile-messenger/Layer-3.jpg);"></div>
+                                                    <div class="user-message__img--box" style="background-image: url(../assets/img/profile/profile-messenger/Layer-4.jpg);"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="personal-friend-meessage d_flex a_items_start">
+                                            <div class="prs-area-user-img"
+                                                style="background-image: url('../assets/img/personal-area/user-male.png')">
+                                            </div>
+                                            <div class="personal-frienf-mss-info">
+                                                <div class="personal-user-mss-title d_flex a_items_center j_content_between">
+                                                    <h3>Руслан</h3>
+                                                    <span>12:32</span>
+                                                </div>
+                                                <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="personal-area-text-a-write">
+                                        <form>
+                                            <div class="personal-area-write-box d_flex">
+                                                <div class="personal-area-add-file d_flex a_items_start a_items_center">
+                                                    <label>
+                                                        <input type="file">
+                                                        <div class="personal-area-file-img" style="background-image: url('../assets/img/personal-area/clipboard.png')"></div>
+                                                    </label>
+                                                </div>
+                                                <div class="personal-area-sent-message-input">
+                                                    <label>
+                                                        <textarea type="text" placeholder="Ведите текст собщения..."></textarea>
+                                                    </label>
+                                                </div>
+                                                <div class="send-message-persons d_flex a_items_start a_items_center">
+                                                    <button>
+                                                        <span style="background-image: url('../assets/img/personal-area/paper-plane.png')" ></span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </form>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ====================== -HTML5-PROFILE-STATISTICS-END- ======================= -->
+
+
+    <!-- ====================== -HTML5-FOOTER-START- ======================= -->
+    <footer>
+        <div class="container">
+            <div class="footer-min d_flex j_content_between a_items_start">
+                <div class="footer-min__menu">
+                    <ul class="d_flex j_content_between f_wrap">
+                        <li><span>Навигация:</span></li>
+                        <li><a href="#">Новости</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Оферта</a></li>
+                        <li><a href="#">Отзывы о автосервисах</a></li>
+                        <li><a href="#">Автосервисам</a></li>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Акции автосервисов</a></li>
+                    </ul>
+                </div>
+                <div class="footer-min__menu">
+                    <ul>
+                        <li><span>Пользователям:</span></li>
+                        <li><a href="#">Политика конфиденциальности</a></li>
+                        <li><a href="#">Пользовательское соглашение</a></li>
+                        <li><a href="#">Оферта</a></li>
+                    </ul>
+                </div>
+                <div class="footer-block">
+                    <p>наши контакты:</p>
+                    <div class="footer-block__href">
+                        <a href="tel: +7 948 455 74 59;">+7 948 455 74 59</a>
+                        <a href="mailto: support@cardoc.ru;">support@cardoc.ru</a>
+                    </div>
+                    <div class="footer-block__href--icon d_flex">
+                        <a href="https://play.google.com"><img src="../assets/img/icons/Google_Play.png" alt="png"></a>
+                        <a href="https://www.apple.com"><img src="../assets/img/icons/box.png" alt="png"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="all-rights__reserved">
+            <div class="container">
+                <div class="all-rights__reserved--min d_flex j_content_between a_items_center">
+                    <div class="all-rights__reserved--text">
+                        <p>2019 © CarDoc. Все права защищены.</p>
+                    </div>
+                    <div class="all-rights__reserved--icon">
+                            <ul class="d_flex j_content_between">
+    
+                                <li><a href="https://www.instagram.com">
+                                        <svg>
+                                            <use xlink:href="../assets/img/svg/icons.svg#instagram"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li><a href="https://vk.com">
+                                        <svg>
+                                            <use xlink:href="../assets/img/svg/icons.svg#vk"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li><a href="https://www.facebook.com">
+                                        <svg>
+                                            <use xlink:href="../assets/img/svg/icons.svg#faceboock"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li><a href="https://www.youtube.com">
+                                        <svg>
+                                            <use xlink:href="../assets/img/svg/icons.svg#youtube"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    <div class="made-in d_flex j_content_between a_items_center">
+                        <p>Сделано в</p>
+                        <div class="made-in__logo">
+                            <img src="../assets/img/icons/vector-smart.png" alt="png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ====================== -HTML5-FOOTER-END- ======================= -->
+
+
+
+    <!-- ===================== -SCRIPT-PLUGIN-START- ===================== -->
+    <script src="../assets/js/jquery-3.2.1.min.js"></script>
+    <script src="../assets/slick/slick.min.js"></script>
+    <script src="../assets/js/jquery.formstyler.min.js"></script>
+    <script src="../assets/js/jquery.mask.js"></script>
+    <script src="../assets/js/jquery.magnific-popup.min.js"></script>
+
+    <!-- ====================== -SCRIPT-PLUGIN-END- ====================== -->
+    <!-- ======================= -SCRIPT-MY-START- ======================= -->
+    <script src="../assets/js/script.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('select').styler();
+        })
+
+        $(document).ready(function () {
+            $(".phone").mask('+7 (999)-999-99-99');
+        })
+
+
+    </script>
+    <!-- ======================== -SCRIPT-MY-END- ======================== -->
+</body>
+
+</html>

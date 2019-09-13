@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- ==================== -META-TAG-SEO-START- ==================== -->
+    <meta name="copyright" content="Информация о вашей фирме">
+    <meta name="keywords" content="Ваши ключевые слова">
+    <meta name="description" content="Описание Вашей страницы">
+    <!-- ==================== -META-TAG-SEO-END- ==================== -->
+    <title>CarDoc</title>
+    <link rel="icon" href="assets/img/favicon/fav-logo.png">
+    <!-- ==================== -LINKS-PLUGIN-START- ==================== -->
+    <link rel="stylesheet" href="assets/slick/slick.css">
+    <link rel="stylesheet" href="assets/slick/slick-theme.css">
+    <link rel="stylesheet" href="assets/style/jquery.formstyler.css">
+    <link rel="stylesheet" href="assets/style/jquery.formstyler.theme.css">
+    <link rel="stylesheet" href="assets/style/magnific-popup.css">
+    <link rel="stylesheet" href="assets/style/jquery-ui.css">
+    <link rel="stylesheet" href="assets/style/nouislider.css">
+    <!-- ===================== -LINKS-PLUGIN-END- ===================== -->
+    <!-- ====================== -LINKS-MY-START- ====================== -->
+    <link rel="stylesheet" href="assets/style/static-root.css">
+    <link rel="stylesheet" href="assets/style/flexbox.css">
+    <link rel="stylesheet" href="assets/style/normalize.css">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet" href="assets/style/media.css">
+    <!-- ======================= -LINKS-MY-END- ======================= -->
+</head>
+<body>
+
+    <style>
+        .site-map{
+            padding: 10px;
+        }
+        .site-map ul{
+            display: inline-block;
+            position: relative;
+        }
+        .site-map__mob{
+            display: inline-block;
+            /*cursor: pointer;*/
+        }
+        .site-map__mob .site-map__link--iframe{
+            width: 375px;
+            height: calc(100vh - 20px);
+            position: absolute;
+            top: 0;
+            left: 100%;
+            opacity: 0;
+            visibility: hidden;
+            border-radius: var(--br-radius);
+            transition: var(--transition-all);
+            box-shadow: 0px 0px 11px #333;
+            overflow: hidden;
+            z-index: 99;
+        }
+        /* .site-map ul li:hover .site-map__link--iframe{
+            opacity: 1;
+            visibility: visible;
+        } */
+        .site-map ul li ul{
+            padding-left: 20px;
+        }
+    </style>
+
+    <div class="site-map">
+        <ul>
+            <li>
+                <a href="index.html" target="_blank">Главная (Готова)</a>
+                <div class="site-map__mob"> - / -
+                    <!-- <span>Мобайл (Готова)</span> -->
+                    <div class="site-map__link--iframe">
+                        <iframe src="index.html" frameborder="0" marginwidth="0" marginheight="0" width="100%" height="100%"></iframe>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="typical-page.html" target="_blank">Типовая страница (Готова)</a>
+                <div class="site-map__mob"> - / -
+                    <!-- <span>Мобайл (Готова)</span> -->
+                    <div class="site-map__link--iframe">
+                        <iframe src="typical-page.html" frameborder="0" marginwidth="0" marginheight="0" width="100%" height="100%"></iframe>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="last-request.html" target="_blank">Последние заявки (Готова)</a>
+                <div class="site-map__mob"> - / -
+                    <!-- <span>Мобайл (Готова)</span> -->
+                    <div class="site-map__link--iframe">
+                        <iframe src="last-request.html" frameborder="0" marginwidth="0" marginheight="0" width="100%" height="100%"></iframe>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="auto-services-page.html" target="_blank">Автосервисы (Готова)</a>
+                <div class="site-map__mob"> - / -
+                    <!-- <span>Мобайл (Готова)</span> -->
+                    <div class="site-map__link--iframe">
+                        <iframe src="auto-services-page.html" frameborder="0" marginwidth="0" marginheight="0" width="100%" height="100%"></iframe>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="application-steps.html" target="_blank">Заявка шаги (Готова)</a>
+                <div class="site-map__mob"> - / -
+                    <!-- <span>Мобайл (В процессе)</span> -->
+                    <div class="site-map__link--iframe">
+                        <iframe src="application-steps.html" frameborder="0" marginwidth="0" marginheight="0" width="100%" height="100%"></iframe>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="review.html" target="_blank">Отзывы (Готова)</a>
+                <div class="site-map__mob"> - / -
+                    <!-- <span>Мобайл (Завтра будет готова)</span> -->
+                    <div class="site-map__link--iframe">
+                        <iframe src="review.html" frameborder="0" marginwidth="0" marginheight="0" width="100%" height="100%"></iframe>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <p>Кабинет пользователя (Готова)</p>
+                
+                <ul>
+                    <li>
+                        <a href="room-user.html" target="_blank">заявки польз (Готова)</a>
+                        <div class="site-map__mob"> - / -
+                            <!-- <span>Мобайл (Завтра будет готова)</span> -->
+                            <div class="site-map__link--iframe">
+                                <iframe src="room-user.html" frameborder="0" marginwidth="0" marginheight="0" width="100%" height="100%"></iframe>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="room-user-messenger.html" target="_blank">список заявок (Готова)</a>
+                        <div class="site-map__mob"> - / -
+                            <!-- <span>Мобайл (Завтра будет готова)</span> -->
+                            <div class="site-map__link--iframe">
+                                <iframe src="room-user-messenger.html" frameborder="0" marginwidth="0" marginheight="0" width="100%" height="100%"></iframe>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>Кабинет сервиса (Готова)</p>
+                
+                <ul>
+                    <li>
+                        <a href="profile/profile-stocks.html" target="_blank">акции (Готова)</a>
+                        <div class="site-map__mob"> - / -
+                            <!-- <span>Мобайл (Завтра будет готова)</span> -->
+                            <div class="site-map__link--iframe">
+                                <iframe src="profile/profile-stocks.html" frameborder="0" marginwidth="0" marginheight="0" width="100%" height="100%"></iframe>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="profile/profile-applications.html" target="_blank">заявки нов (Готова)</a>
+                        <div class="site-map__mob"> - / -
+                            <!-- <span>Мобайл (Завтра будет готова)</span> -->
+                            <div class="site-map__link--iframe">
+                                <iframe src="profile/profile-applications.html" frameborder="0" marginwidth="0" marginheight="0" width="100%" height="100%"></iframe>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="profile/profile-review.html" target="_blank">отзывы (Готова)</a>
+                        <div class="site-map__mob"> - / -
+                            <!-- <span>Мобайл (Завтра будет готова)</span> -->
+                            <div class="site-map__link--iframe">
+                                <iframe src="profile/profile-review.html" frameborder="0" marginwidth="0" marginheight="0" width="100%" height="100%"></iframe>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="profile/profile-history.html" target="_blank">пополнения (Готова)</a>
+                        <div class="site-map__mob"> - / -
+                            <!-- <span>Мобайл (Завтра будет готова)</span> -->
+                            <div class="site-map__link--iframe">
+                                <iframe src="profile/profile-history.html" frameborder="0" marginwidth="0" marginheight="0" width="100%" height="100%"></iframe>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="profile/profile-autoservices.html" target="_blank">профиль (Готова)</a>
+                        <div class="site-map__mob"> - / -
+                            <!-- <span>Мобайл (Завтра будет готова)</span> -->
+                            <div class="site-map__link--iframe">
+                                <iframe src="profile/profile-autoservices.html" frameborder="0" marginwidth="0" marginheight="0" width="100%" height="100%"></iframe>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="profile/profile-statistics.html" target="_blank">статистика (Готова)</a>
+                        <div class="site-map__mob"> - / -
+                            <!-- <span>Мобайл (Завтра будет готова)</span> -->
+                            <div class="site-map__link--iframe">
+                                <iframe src="profile/profile-statistics.html" frameborder="0" marginwidth="0" marginheight="0" width="100%" height="100%"></iframe>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="profile/profile-messenger.html" target="_blank">чат (Готова)</a>
+                        <div class="site-map__mob"> - / -
+                            <!-- <span>Мобайл (Завтра будет готова)</span> -->
+                            <div class="site-map__link--iframe">
+                                <iframe src="profile/profile-messenger.html" frameborder="0" marginwidth="0" marginheight="0" width="100%" height="100%"></iframe>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+
+            <hr>
+            <hr>
+            <p>Модальное окно</p>
+            <li>
+                <a href="modal.html" target="_blank">Регистрация и Вход (Готова)</a>
+                <div class="site-map__mob"> - / -
+                    <!-- <span>Мобайл (Готова)</span> -->
+                    <div class="site-map__link--iframe">
+                        <iframe src="modal.html" frameborder="0" marginwidth="0" marginheight="0" width="100%" height="100%"></iframe>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+
+
+
+
+
+
+
+<!-- ===================== -SCRIPT-PLUGIN-START- ===================== -->
+<script src="assets/js/jquery-3.2.1.min.js"></script>
+<script src="assets/slick/slick.min.js"></script>
+<script src="assets/js/jquery.mask.min.js"></script>
+<!-- ====================== -SCRIPT-PLUGIN-END- ====================== -->
+<!-- ======================= -SCRIPT-MY-START- ======================= -->
+<script src="assets/js/script.js"></script>
+<!-- ======================== -SCRIPT-MY-END- ======================== -->
+</body>
+
+</html>

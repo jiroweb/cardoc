@@ -1,0 +1,87 @@
+/*====================================-ROOT-STYLE-START-======================================*/
+
+:root {
+  --color-green: rgb(80, 169, 2);
+  --color-white: rgb(255, 255, 255);
+  --bg-color-btn: #51ac02;
+  --bg-hover-color-btn: #278d18;
+  --bg-active-color-btn: #82ac5c;
+  --br-radius: 3px;
+  --transition-all: 0.3s;
+}
+
+/*====================================-ROOT-STYLE-END-======================================*/
+
+/*====================================-STATIC-STYLE-START-======================================*/
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.container_fluid {
+  padding: 0 40px;
+  margin: 0 auto;
+}
+
+.btn-bg *, .btn-br * {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: var(--br-radius);
+  transition: var(--transition-all);
+  letter-spacing: 1.5px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-bg * {
+  background-color: var(--bg-color-btn);
+  color: var(--color-white);
+}
+
+.btn-bg *:hover {
+  background-color: var(--bg-hover-color-btn);
+}
+
+.btn-br * {
+  background-color: transparent;
+  border: 1px solid var(--color-green);
+}
+
+.btn-br *:hover {
+  background-color: var(--bg-color-btn);
+  color: var(--color-white);
+  border: 1px solid var(--bg-color-btn);
+}
+
+.btn-bg *:active {
+  background-color: var(--bg-active-color-btn);
+}
+
+.btn-br *:active {
+  background-color: var(--bg-active-color-btn);
+  border: 1px solid transparent;
+}
+
+.img-static {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.section-title h3 {
+  font-size: 42px;
+}
+
+.strong{
+  font-weight: 600;
+}
+/*=====================================-STATIC-STYLE-END-=======================================*/

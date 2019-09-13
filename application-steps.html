@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- ==================== -META-TAG-SEO-START- ==================== -->
+    <meta name="copyright" content="Информация о вашей фирме">
+    <meta name="keywords" content="Ваши ключевые слова">
+    <meta name="description" content="Описание Вашей страницы">
+    <!-- ==================== -META-TAG-SEO-END- ==================== -->
+    <title>CarDoc</title>
+    <link rel="icon" href="assets/img/favicon/fav-logo.png">
+    <!-- ==================== -LINKS-PLUGIN-START- ==================== -->
+    <link rel="stylesheet" href="assets/slick/slick.css">
+    <link rel="stylesheet" href="assets/slick/slick-theme.css">
+    <link rel="stylesheet" href="assets/style/jquery.formstyler.css">
+    <link rel="stylesheet" href="assets/style/jquery.formstyler.theme.css">
+    <link rel="stylesheet" href="assets/style/magnific-popup.css">
+    <link rel="stylesheet" href="assets/style/jquery-ui.css">
+    <!-- ===================== -LINKS-PLUGIN-END- ===================== -->
+    <!-- ====================== -LINKS-MY-START- ====================== -->
+    <link rel="stylesheet" href="assets/style/static-root.css">
+    <link rel="stylesheet" href="assets/style/flexbox.css">
+    <link rel="stylesheet" href="assets/style/normalize.css">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet" href="assets/style/media.css">
+    <!-- ======================= -LINKS-MY-END- ======================= -->
+</head>
+
+<body>
+    <!-- ===================== -HTML5-HEADER-START- ====================== -->
+    <header class="header-min">
+        <div class="container_fluid">
+            <div class="header-home  d_flex j_content_between a_items_center">
+                <div class="header-home__nav">
+                    <div class="header-menu">
+                        <div class="open-menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="for-mobile-bg"></div>
+                        <div class="menu-cnt">
+                            <div id="mySidenav" class="sidenav ">
+                                <ul class="d_flex a_items_center j_content_between f_wrap">
+                                    <li><a href="#">автосервисам</a></li>
+                                    <li><a href="#">Помощь</a></li>
+                                    <li><a href="#">новости</a></li>
+                                </ul>
+                                <div class="application-steps__about--user__logout d_none">
+                                    <a href="#"><img src="assets/img/icons/logout.png" alt="png"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-home__logo">
+                    <a href="#" class="d_flex j_content_between a_items_start">
+                        <div class="header-home__img__logo">
+                            <img src="assets/img/favicon/vector-smart-2.png" alt="png">
+                        </div>
+                        <div class="header-home__logo__text">
+                            <img src="assets/img/favicon/Vector-logo-2.png" alt="png">
+                        </div>
+                    </a>
+                </div>
+                <div class="header-arkhangelsk d_flex j_content_between ">
+                    <div class="header-arkhangelsk-min header-ark__info d_flex  a_items_center">
+                        <div class="header-arkhangelsk-cnt">
+                            <a href="#">Архангельск</a>
+                        </div>
+                        <div class="filter-box">
+                            <div class="filter-box__input">
+                                <label>
+                                    <div class="filter-box__input_search">
+                                        <img src="assets/img/icons/search.png" alt="png">
+                                    </div>
+                                    <input id="filterInput" onkeyup="myFunction()"
+                                        placeholder="Введите название города">
+                                </label>
+                            </div>
+                            <div class="filter-box__list">
+                                <ul id="filterList">
+                                    <li><a href="#">Губкин</a></li>
+                                    <li><a href="#">Гудермес</a></li>
+                                    <li><a href="#"> Гуково</a></li>
+                                    <li><a href="#">Гусь-Хрустальный</a></li>
+                                    <li><a href="#">Дербент</a></li>
+                                    <li><a href="#">Дзержинск</a></li>
+                                    <li><a href="#">Димитровград</a></li>
+                                    <li><a href="#">Дмитров</a></li>
+                                    <li><a href="#">Долгопрудный</a></li>
+                                    <li><a href="#">Домодедово</a></li>
+                                    <li><a href="#"> Донской</a></li>
+                                    <li><a href="#">Дмитров</a></li>
+                                    <li><a href="#">Долгопрудный</a></li>
+                                    <li><a href="#">Домодедово</a></li>
+                                    <li><a href="#"> Донской</a></li>
+                                    <li><a href="#">Гусь-Хрустальный</a></li>
+                                    <li><a href="#">Дербент</a></li>
+                                    <li><a href="#">Дзержинск</a></li>
+                                    <li><a href="#">Димитровград</a></li>
+                                    <li><a href="#">Дмитров</a></li>
+                                    <li><a href="#">Долгопрудный</a></li>
+                                    <li><a href="#">Домодедово</a></li>
+                                    <li><a href="#"> Донской</a></li>
+                                    <li><a href="#">Дмитров</a></li>
+                                    <li><a href="#">Долгопрудный</a></li>
+                                    <li><a href="#">Домодедово</a></li>
+                                    <li><a href="#"> Донской</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="application-steps__about--user  d_flex j_content_between a_items_center">
+                        <div class="header-arkhangelsk-min d_flex j_content_between a_items_center">
+                            <div class="application-steps__about--user__img">
+                                <img src="assets/img/favicon/Layer.png" alt="png">
+                            </div>
+                            <div class="application-steps__about--user__min ">
+                                <div class="application-steps__about--user__name d_flex j_content_between">
+                                    <p>Иванов сергей</p>
+                                </div>
+                                <div class="filter-box">
+                                    <div class="filter-box__list">
+                                        <ul>
+                                            <li><a href="#">Мои заявки</a></li>
+                                            <li><a href="#">Сообщения</a></li>
+                                            <li><a href="#">Акции и финансы</a></li>
+                                            <li><a href="#">Страница СТО</a></li>
+                                            <li><a href="#">Тарифы</a></li>
+                                            <li><a href="#">Профиль</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="application-steps__about--user__logout">
+                            <a href="#"><img src="assets/img/icons/logout.png" alt="png"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ====================== -HTML5-HEADER-END- ======================= -->
+
+    <!-- ====================== -HTML5-APPLICATION-STEPS-START- ======================= -->
+    <section class="application-steps__bg">
+        <div class="container_fluid">
+            <div class="application-steps__min d_flex j_content_between">
+                <div class="application-steps__left">
+                    <div class="about-application-steps">
+                        <div class="application-steps__left--box d_flex f_direction_column a_items_center">
+                            <div class="application-steps__left--box__img">
+                                <img src="assets/img/application-steps/Layer.png" alt="png">
+                            </div>
+                            <p>Иванов сергей</p>
+                        </div>
+                        <div class="about-my__car">
+                            <ul>
+                                <li class="about-my__car--active"><a href="#">Заявки <span>73</span></a></li>
+                                <li><a href="#">Сообщения <span>23</span></a></li>
+                                <li><a href="#">Акции <span>5</span></a></li>
+                                <li><a href="#">Мои автомобили</a></li>
+                                <li><a href="#">Профил</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="about-my__car--available_info">
+                        <a href="#" class="about-my__car--available d_flex a_items_center">
+                            <div class="about-my__car--available__icon"
+                                style="background-image: url('assets/img/application-steps/apple.png')">
+                            </div>
+                            <div class="about-my__car--available__text">
+                                <p>Доступно в</p>
+                                <span class="strong">Appstore</span>
+                            </div>
+                        </a>
+                        <a href="#" class="about-my__car--available d_flex a_items_center">
+                            <div class="about-my__car--available__icon"
+                                style="background-image: url('assets/img/application-steps/Vector-smart.png')">
+                            </div>
+                            <div class="about-my__car--available__text fone-green">
+                                <p>Доступно в</p>
+                                <span class="strong">Google Play</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="application-steps__right">
+                    <form>
+                        <div class="application-steps__right--box d_flex j_content_between a_items_center">
+                            <div class="choosing-car__model--min d_flex a_items_center">
+                                <div class="choosing-car_model-img"
+                                    style="background-image: url('assets/img/icons/tayota.png')"></div>
+                                <div class="choosing-car__model">
+                                    <select>
+                                        <option>Toyota Land Cruiser 200</option>
+                                        <option>Toyota Land Cruiser 200</option>
+                                        <option>Toyota Land Cruiser 200</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="application-information">
+                                <div class="crate-account-menu" data-bool='false'>
+                                    <ul class="d_flex j_content_between f_wrap">
+                                        <li data-id='create-contact'>
+                                            <div
+                                                class="application-information__sitings d_flex j_content_between a_items_center">
+                                                <div class="application-information__sitings--circle">
+                                                    <div class="application-information__sitings--img img-static"
+                                                        style="background-image: url('assets/img/application-steps/wheel.png')">
+                                                    </div>
+                                                </div>
+                                                <div class="application-information__sitings--text">
+                                                    <p>Выбор модели автомобиля</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li data-id='create-pasport'>
+                                            <div
+                                                class="application-information__sitings d_flex j_content_between a_items_center">
+                                                <div class="application-information__sitings--circle">
+                                                    <div class="application-information__sitings--img img-static"
+                                                        style="background-image: url('assets/img/application-steps/gear.png')">
+                                                    </div>
+                                                </div>
+                                                <div class="application-information__sitings--text">
+                                                    <p>Опишите суть неисправности</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li data-id='crate-card'>
+                                            <div
+                                                class="application-information__sitings application-arrow-none d_flex j_content_between a_items_center">
+                                                <div class="application-information__sitings--circle">
+                                                    <div class="application-information__sitings--img img-static"
+                                                        style="background-image: url('assets/img/application-steps/credit-card.png')">
+                                                    </div>
+                                                </div>
+                                                <div class="application-information__sitings--text">
+                                                    <p>Подтверждение данных</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about-application__step d_flex j_content_center a_items_center">
+                            <div class="layer-progress-bar"></div>
+                            <p>ШАГ <span class="change-stape-progress"> 1 </span> из 3</p>
+                        </div>
+
+                        <div class="close-block-creat" id="create-contact">
+                            <div class="select-car__bg">
+                                <div class="select-car__brand d_flex j_content_between f_wrap">
+                                    <div class="select-car__brand--block">
+                                        <p>Выберите марку автомобиля:</p>
+                                        <div class="select-car__brand--box">
+                                            <label>
+                                                <select>
+                                                    <option>Chevrolet</option>
+                                                    <option>Chevrolet_1</option>
+                                                    <option>Chevrolet_2</option>
+                                                </select>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="select-car__brand--block">
+                                        <p>Выберите модель:</p>
+                                        <div class="select-car__brand--box">
+                                            <label>
+                                                <select>
+                                                    <option>Captiva</option>
+                                                    <option>Captiva_1</option>
+                                                    <option>Captiva_2</option>
+                                                </select>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="select-car__brand--block">
+                                        <p>Год выпуска автомобиля:</p>
+                                        <div class="select-car__brand--box">
+                                            <label>
+                                                <select>
+                                                    <option>2009</option>
+                                                    <option>2010</option>
+                                                    <option>2011</option>
+                                                </select>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="select-car__brand--block">
+                                        <p>Двигатель:</p>
+                                        <div class="select-car__brand--box">
+                                            <label>
+                                                <select>
+                                                    <option>2.0, Бензин</option>
+                                                    <option>2.0, Бензин_1</option>
+                                                    <option>2.0, Бензин_2</option>
+                                                </select>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="select-car__brand--block">
+                                        <p>Коробка передач:</p>
+                                        <div class="select-car__brand--box">
+                                            <label>
+                                                <select>
+                                                    <option>Автоматическая</option>
+                                                    <option>Автоматическая_1</option>
+                                                    <option>Автоматическая_2</option>
+                                                </select>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="select-car__brand--block">
+                                        <p>VIN-номер автомобиля:</p>
+                                        <div class="select-car__brand--box">
+                                            <label>
+                                                <input type="text" placeholder="KL1LF0434341b4">
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="select-car__brand-btn btn-bg">
+                                    <button type="button" class="crate-account-btn" data-create='create-pasport'>
+                                        следующий шаг</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="close-block-creat" id="create-pasport">
+                            <div class="select-car__bg">
+                                <div class="select-car__brand d_flex j_content_between a_items_end">
+                                    <div class="for-example__change">
+                                        <p>Опишите работы по вашему авто:</p>
+                                        <textarea
+                                            placeholder="Например: заменить масло и фильтр в двигателе"></textarea>
+                                    </div>
+                                    <div class="for-example__change--block">
+                                        <p>Прикрепить фотографии <span>(не более 150 кБ)</span>:</p>
+                                        <div class="for-example__change--file d_flex j_content_between">
+                                            <div class="add_file">
+                                                <label>
+                                                    <!-- <input type="file" name="img" class="inputfile current-imput"  /> -->
+                                                    <div class="current-img" style="background-image: url('assets/img/application-steps/Layer-2.png')"></div>
+                                                    <span class="remove-and-add remove-img"></span>
+                                                </label>
+                                            </div>
+                                            <div class="add_file">
+                                                <label>
+                                                    <!-- <input type="file" name="img" class="inputfile current-imput" /> -->
+                                                    <div class="current-img"></div>
+                                                    <span class="remove-and-add"></span>
+                                                </label>
+                                            </div>
+                                            <div class="add_file">
+                                                <label>
+                                                    <!-- <input type="file" name="img" class="inputfile current-imput" /> -->
+                                                    <div class="current-img"></div>
+                                                    <span class="remove-and-add"></span>
+                                                </label>
+                                            </div>
+                                            <div class="add_file">
+                                                <label>
+                                                    <!-- <input type="file" name="img" class="inputfile current-imput" /> -->
+                                                    <div class="current-img"></div>
+                                                    <span class="remove-and-add"></span>
+                                                </label>
+                                            </div>
+                                            <div class="add_file">
+                                                <label>
+                                                    <!-- <input type="file" name="img" class="inputfile current-imput" /> -->
+                                                    <div class="current-img"></div>
+                                                    <span class="remove-and-add"></span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="desired-date-remote d_flex a_items_center">
+                                    <div class="desired-date-remote-text">
+                                        <p>Желаемая дата ремнота:</p>
+                                        <div class="desired-date-remote-box d_flex j_content_between a_items_center">
+                                            <span class="icon-data"
+                                                style="background-image: url('assets/img/application-steps/calendar.png')"></span>
+                                            <input placeholder="24.04.2019" class="data-date-textarea"
+                                                id="datep_arrival">
+                                            <span class="icon-time"
+                                                style="background-image: url('assets/img/application-steps/fast.png')"></span>
+                                            <p class="js-open-time"><span class="selected-hour">01</span>: <span
+                                                    class="selected-time">01</span></p>
+                                            <div class="time-change-js-block">
+                                                <div class="time-change-block  d_flex a_items_center j_content_between">
+                                                    <div data-date='time'
+                                                        class=" parent-change-time time-change-hour d_flex a_items_center j_content_center">
+                                                        <span class="change-prev-time"></span>
+                                                        <input class="timer-input" type="number" value="1" min="1"
+                                                            max="24">
+                                                        <span class="change-next-time"></span>
+                                                    </div>
+                                                    <span> : </span>
+                                                    <div data-date='minute'
+                                                        class=" parent-change-time time-chnage-minute d_flex a_items_center j_content_center">
+                                                        <span class="change-prev-time"></span>
+                                                        <input class="timer-input" type="number" value="1" min="0"
+                                                            max="60">
+                                                        <span class="change-next-time"></span>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="desired-checkbox-block d_flex a_items_center">
+                                        <div class="checkbox-style">
+                                            <label class="d_flex a_items_center">
+                                                <input type="checkbox" name='checkbox'>
+                                                <span class="quadrate-checkmark"></span>
+                                                <p>
+                                                    <span class="btn">
+                                                        Требуется эвакуатор
+                                                    </span>
+                                                </p>
+                                            </label>
+                                        </div>
+                                        <div class="checkbox-style">
+                                            <label class="d_flex a_items_center">
+                                                <input type="checkbox" name='checkbox'>
+                                                <span class="quadrate-checkmark"></span>
+                                                <p>
+                                                    <span class="btn">
+                                                        Требуется подбор запчастей
+                                                    </span>
+                                                </p>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="select-car__brand-btn btn-bg">
+                                <button type="button" class="crate-account-btn" data-create='create-employ'>следующий
+                                    шаг</button>
+                            </div>
+                        </div>
+                        <div class="close-block-creat" id="create-employ">
+                            <div class="select-car__bg">
+                                <div class="car-brand__map">
+                                    <div class="contacts-and-addresses-min-map">
+                                        <iframe
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d577325.3481244906!2d36.8251032430131!3d55.58152436337569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54afc73d4b0c9%3A0x3d44d6cc5757cf4c!2z0JzQvtGB0LrQstCwLCDQoNC-0YHRgdC40Y8!5e0!3m2!1sru!2s!4v1559121264110!5m2!1sru!2s"
+                                            width="100%" height="100%" frameborder="0" style="border:0"
+                                            allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                                <div class="about-car__brand--map d_flex j_content_between">
+                                    <div class="about-car__brand--map__text">
+                                        <p><span class="strong">Радиус поиска автосервисов:</span>
+                                            Найдено автосервисов:
+                                            <span>26</span>
+                                        </p>
+                                    </div>
+                                    <div class="about-car__brand--map__block d_flex j_content_between">
+                                        <div class="about-car__brand--map__box-chacked">
+                                            <label>
+                                                <input type="radio" name='map'>
+                                                <div class="about-car__brand--map__box">
+                                                    <p>5</p>
+                                                    <span>км</span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div class="about-car__brand--map__box-chacked">
+                                            <label>
+                                                <input type="radio" name='map'>
+                                                <div class="about-car__brand--map__box">
+                                                    <p>10</p>
+                                                    <span>км</span>
+                                                </div>
+                                            </label>
+                                        </div>
+
+                                        <div class="about-car__brand--map__box-chacked">
+                                            <label>
+                                                <input type="radio" name='map'>
+                                                <div class="about-car__brand--map__box">
+                                                    <p>20</p>
+                                                    <span>км</span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div class="about-car__brand--map__box-chacked">
+                                            <label>
+                                                <input type="radio" name='map'>
+                                                <div class="about-car__brand--map__box">
+                                                    <p>25</p>
+                                                    <span>км</span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div class="about-car__brand--map__box-chacked">
+                                            <label>
+                                                <input type="radio" name='map'>
+                                                <div class="about-car__brand--map__box">
+                                                    <p>50</p>
+                                                    <span>км</span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div class="about-car__brand--map__box-chacked">
+                                            <label>
+                                                <input type="radio" name='map'>
+                                                <div class="about-car__brand--map__box">
+                                                    <p>100</p>
+                                                    <span>км</span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div class="about-car__brand--map__box-chacked">
+                                            <label>
+                                                <input type="radio" name='map'>
+                                                <div class="about-car__brand--map__box">
+                                                    <p>200</p>
+                                                    <span>км</span>
+                                                </div>
+                                            </label>
+                                        </div>
+
+                                    </div>
+                                    <div class="select-car__brand-btn btn-bg">
+                                        <button type="button" class="crate-account-btn"
+                                            data-create='crate-card'>следующий
+                                            шаг</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="close-block-creat" id="crate-card">
+                            <div class="ready-for__placement">
+                                <div class="ready-for__placement-title">
+                                    <h3>Ваша заявка готова к размещению!</h3>
+                                    <p>Укажите номер телефона, чтобы получать SMS с ответами от автосервисов.</p>
+                                    <span class="strong">Бесплатная услуга для автовладельцев!</span>
+                                </div>
+                                <div class="ready-for__placement--call ">
+                                    <div class="ready-for__placement--call-icon placement--call img-static"
+                                        style="background-image: url('assets/img/application-steps/smartphone.png')">
+
+                                    </div>
+                                    <label>
+                                        <input class="phone" pattern="\+7 \(\d{3}\)-\d{3}-\d{2}-\d{2}" type="text"
+                                            placeholder="+7 ___ - ___ - __ - __">
+                                    </label>
+                                    <div class="select-car__brand-btn btn-bg">
+                                        <button>оформить заявку</button>
+                                    </div>
+                                </div>
+                                <div class="ready-for__placement--text">
+                                    <p>Продолжая, вы пинимаете <a href="#">условия обработки персональных даных</a></p>
+                                </div>
+                            </div>
+                            <div class="ready-for__placement">
+                                <div class="ready-for__placement-tready-for__placement--phoneitle">
+                                    <h3>Ваша заявка готова к размещению! </h3>
+                                    <p>Пожалуйста, введите код из SMS, которое мы отправили на ваш номер телефона</p>
+                                </div>
+                                <div
+                                    class="about-ready-for ready-for__placement--call d_flex j_content_between a_items_center">
+                                    <div class="ready-for__placement--phone">
+                                        <div class="ready-for__placement--call-icon img-static"
+                                            style="background-image: url('assets/img/application-steps/smartphone.png')">
+
+                                        </div>
+                                        <label>
+                                            <input type="text" placeholder="+7 948 874 26 18" disabled>
+                                        </label>
+                                    </div>
+                                    <div class="ready-for__placement--box">
+                                        <label>
+                                            <input type="password">
+                                        </label>
+                                        <div class="select-car__brand-btn btn-bg">
+                                            <button>Подтвердить</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ready-for__placement--box__text">
+                                    <p>Не получили код?<a href="#"> Отправить повторно</a></p>
+                                </div>
+                            </div>
+                            <div class="configure-notifications d_flex j_content_center a_items_center">
+                                <div class="configure-notifications__icon">
+                                    <img src="assets/img/application-steps/Vector-Smart-2.png" alt="png">
+                                </div>
+                                <div class="configure-notifications__block">
+                                    <div class="ready-for__placement-title">
+                                        <h3> Ваша заявка успешно создана!</h3>
+                                        <p>Ее статус вы можете отслеживать в личном кабинете. Для вашего удобства вы
+                                            можете настроить
+                                            удобные виды информирования о новых предложениях и изменениях статусов
+                                            заявок.</p>
+                                    </div>
+                                    <div class="configure-notifications__info d_flex j_content_between">
+                                        <div class="configure-notifications__btn btn-bg">
+                                            <button>Перейти в личный кабинет</button>
+                                        </div>
+                                        <div class="configure-notifications__href btn-br">
+                                            <button>настроить уведомления</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ====================== -HTML5-APPLICATION-STEPS-END- ======================= -->
+    <!-- ====================== -HTML5-FOOTER-START- ======================= -->
+    <footer>
+        <div class="container">
+            <div class="footer-min d_flex j_content_between a_items_start">
+                <div class="footer-min__menu">
+                    <ul class="d_flex j_content_between f_wrap">
+                        <li><span>Навигация:</span></li>
+                        <li><a href="#">Новости</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Оферта</a></li>
+                        <li><a href="#">Отзывы о автосервисах</a></li>
+                        <li><a href="#">Автосервисам</a></li>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Акции автосервисов</a></li>
+                    </ul>
+                </div>
+                <div class="footer-min__menu">
+                    <ul>
+                        <li><span>Пользователям:</span></li>
+                        <li><a href="#">Политика конфиденциальности</a></li>
+                        <li><a href="#">Пользовательское соглашение</a></li>
+                        <li><a href="#">Оферта</a></li>
+                    </ul>
+                </div>
+                <div class="footer-block">
+                    <p>наши контакты:</p>
+                    <div class="footer-block__href">
+                        <a href="tel: +7 948 455 74 59;">+7 948 455 74 59</a>
+                        <a href="mailto: support@cardoc.ru;">support@cardoc.ru</a>
+                    </div>
+                    <div class="footer-block__href--icon d_flex">
+                        <a href="https://play.google.com"><img src="assets/img/icons/Google_Play.png" alt="png"></a>
+                        <a href="https://www.apple.com"><img src="assets/img/icons/box.png" alt="png"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="all-rights__reserved">
+            <div class="container">
+                <div class="all-rights__reserved--min d_flex j_content_between a_items_center">
+                    <div class="all-rights__reserved--text">
+                        <p>2019 © CarDoc. Все права защищены.</p>
+                    </div>
+                    <div class="all-rights__reserved--icon">
+                            <ul class="d_flex j_content_between">
+    
+                                <li><a href="https://www.instagram.com">
+                                        <svg>
+                                            <use xlink:href="assets/img/svg/icons.svg#instagram"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li><a href="https://vk.com">
+                                        <svg>
+                                            <use xlink:href="assets/img/svg/icons.svg#vk"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li><a href="https://www.facebook.com">
+                                        <svg>
+                                            <use xlink:href="assets/img/svg/icons.svg#faceboock"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li><a href="https://www.youtube.com">
+                                        <svg>
+                                            <use xlink:href="assets/img/svg/icons.svg#youtube"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    <div class="made-in d_flex j_content_between a_items_center">
+                        <p>Сделано в</p>
+                        <div class="made-in__logo">
+                            <img src="assets/img/icons/vector-smart.png" alt="png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ====================== -HTML5-FOOTER-END- ======================= -->
+
+
+
+    <!-- ===================== -SCRIPT-PLUGIN-START- ===================== -->
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/slick/slick.min.js"></script>
+    <script src="assets/js/jquery.formstyler.min.js"></script>
+    <script src="assets/js/jquery.mask.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="assets/js/jquery-ui-i18n.min.js"></script>
+    <!-- ====================== -SCRIPT-PLUGIN-END- ====================== -->
+    <!-- ======================= -SCRIPT-MY-START- ======================= -->
+    <script src="assets/js/script.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('select').styler();
+        })
+
+        $(document).ready(function () {
+            $(".phone").mask('+7 (999)-999-99-99');
+        })
+
+        $(function () {
+            $('#datep_arrival').datepicker($.datepicker.regional["ru"]);
+        });
+
+    </script>
+    <!-- ======================== -SCRIPT-MY-END- ======================== -->
+</body>
+
+</html>
